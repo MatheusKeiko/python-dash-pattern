@@ -1,0 +1,9 @@
+/* [atual] assets/css/theme-images.css */
+
+/* estado padrão (light) */
+.theme-dark-only { display: none; }
+.theme-light-only { display: inline; }
+
+/* quando o tema dark estiver ativo */
+:root[data-mantine-color-scheme='dark'] .theme-dark-only { display: inline; }
+:root[data-mantine-color-scheme='dark'] .theme-light-only { display: none; }
